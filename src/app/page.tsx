@@ -21,6 +21,7 @@ export default function Home() {
   return (
     <RootLayout>
       <Header />
+     
       <div className={style.container}>
         {/* <FormLogin/> */}
         <div className={style.formContainer} >

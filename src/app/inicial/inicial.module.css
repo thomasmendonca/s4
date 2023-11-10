@@ -1,0 +1,37 @@
+.container{
+    background-color: var(--dark600);
+    height: 1rem;
+    flex: 1;
+    padding: 0 2%;
+    width: 96%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+.title{
+    font-size: 2rem;
+    display: block;
+    text-align: center;
+    
+}
+.subtitle{
+    color: var(--primary100);
+    text-align: center;
+}
+.article{
+    color: var(--dark100);
+    padding: 0 1rem;
+    text-align: justify;
+}
+.article strong  {
+    color: var(--primary100);
+}
+.buttonWrapper{
+    display: flex;
+    flex: 1;
+    justify-content: center;
+    align-items: end;
+    width: 96%;
+    padding: 0 2%;
+    margin-bottom: 2rem;
+}
