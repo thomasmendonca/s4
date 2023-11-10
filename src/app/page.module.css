@@ -1,0 +1,71 @@
+.container{
+    background-color: var(--dark600);
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex-grow: 1;
+}
+.formContainer{
+    display: flex;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: var(--dark600);
+    border-top-right-radius: 20px;
+    border-top-left-radius: 20px;
+    border-top: 3px solid var(--primary100);
+    
+    
+}
+.formLayout{
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+.formInputGroup{
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   margin-bottom: 0.6rem;
+   
+   
+}
+.formInput{
+    height: 3rem;
+    width: 18rem;
+    border: 0;
+    background-color: var(--dark700);
+    color: var(--light);
+    outline: none;
+    border-radius: 5px;
+    padding: 0 1rem;
+    font-size: 1rem;
+    margin: 0.5rem;   
+    
+}
+.formInput:focus{
+    outline: 2px solid var(--primary100);
+}
+.formInput::placeholder{
+    color: var(--dark100);
+    
+}
+.formTitle{
+    text-align: center;
+    font-weight: 400;
+}
+.formText{
+    color: var(--dark100);
+    text-align: center;
+    
+}
+.formLink{
+    color: var(--primary100);
+    text-decoration: none;
+    cursor: pointer;
+    font-weight: bold;
+}

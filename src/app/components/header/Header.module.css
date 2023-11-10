@@ -1,0 +1,13 @@
+.headerLayout{
+    width: 96%;
+    height: 5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0 2%;
+    background-color: var(--dark700);
+}
+.headerLogo{
+    width: 16rem;
+    height: auto;
+}

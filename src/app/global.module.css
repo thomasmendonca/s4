@@ -1,0 +1,24 @@
+.layout{
+    --dark700: #131316;
+    --dark600: #1c1c21;
+    --dark500: #26262c;
+    --dark400: #2f3037;
+    --dark300: #393a41;
+    --dark100: #7a7a7a;
+
+    --light: #ffffff;
+
+    --primary100: #63D061;
+    --primary200: #53a952;
+
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    background: var(--dark700);
+    color: var(--light);
+    width: 100vw;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
