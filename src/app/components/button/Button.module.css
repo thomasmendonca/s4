@@ -1,6 +1,6 @@
 .button{
     height: 3.2rem;
-    width: 10rem;
+    min-width: 10rem;
     border: 1px solid var(--primary100);
     outline: 0;
     background: transparent;

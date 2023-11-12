@@ -24,7 +24,7 @@ export default function Already(){
                     Voltar
                 </Button>
                 <Button
-                onClick={() => router.push('/')}>
+                onClick={() => router.push('/menu-home')}>
                     Pronto
                 </Button>
                 </div>

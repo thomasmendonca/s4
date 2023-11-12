@@ -1,0 +1,45 @@
+.container{
+    background-color: var(--dark700);
+    height: 1rem;
+    flex: 1;
+    padding: 0 2%;
+    width: 96%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+.title{
+    font-size: 1.6rem;
+    display: block;
+    text-align: center;
+    font-weight: 400;
+    
+}
+.card{
+    background-color: var(--dark600);
+    width: 18rem;
+    min-height: 14rem;
+    border-radius: 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0.6rem;
+}
+.cardTitle{
+    color: var(--primary100);
+    text-align: center;
+    font-weight: 600;
+    font-size: 1.2rem;
+}
+.cardGroup{
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    justify-content: center;
+    
+}
+.article{
+    color: var(--dark100);
+    padding: 0 1rem;
+    text-align: center;
+}

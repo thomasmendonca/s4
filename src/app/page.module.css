@@ -1,13 +1,15 @@
 .container{
-    background-color: var(--dark600);
+    background-color: var(--dark700);
     width: 100%;
     display: flex;
     flex-direction: column;
     align-items: center;
-    flex-grow: 1;
+    flex: 1;
+    
 }
 .formContainer{
     display: flex;
+    flex: 1;
     width: 100%;
     display: flex;
     flex-direction: column;
@@ -16,8 +18,6 @@
     border-top-right-radius: 20px;
     border-top-left-radius: 20px;
     border-top: 3px solid var(--primary100);
-    
-    
 }
 .formLayout{
     width: 90%;
@@ -56,11 +56,13 @@
 }
 .formTitle{
     text-align: center;
-    font-weight: 400;
+    font-weight: 300;
+    font-size: 1.8rem;
 }
 .formText{
     color: var(--dark100);
     text-align: center;
+    font-size: 1rem;
     
 }
 .formLink{
@@ -68,4 +70,11 @@
     text-decoration: none;
     cursor: pointer;
     font-weight: bold;
+}
+.buttonWrapper{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    margin-top: 1rem;
+
 }
