@@ -4,7 +4,7 @@ import RootLayout from "../layout";
 import { useEffect, useState } from "react";
 import style from '../page.module.css'
 import { useRouter } from "next/navigation"
-import { Button } from "../components/button/Button";
+import Button from "../components/button/Button";
 export default function CadastroVeiculo() {
     const router = useRouter()
     const [modeloVeiculo, setModeloVeiculo] = useState('');

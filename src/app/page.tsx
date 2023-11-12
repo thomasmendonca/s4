@@ -3,7 +3,7 @@ import Link from "next/link"
 import Header from "./components/header/Header"
 import RootLayout from "./layout"
 import { useRouter } from "next/navigation";
-import { Button } from "./components/button/Button";
+import  Button  from "./components/button/Button";
 import style from "./page.module.css"
 import { useState } from "react";
 

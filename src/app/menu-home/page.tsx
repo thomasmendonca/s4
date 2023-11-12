@@ -1,6 +1,6 @@
 "use client"
 import { useRouter } from "next/navigation";
-import { Button } from "../components/button/Button";
+import  Button  from "../components/button/Button";
 import Header from "../components/header/Header";
 import RootLayout from "../layout";
 import style from './MenuHome.module.css'

@@ -5,7 +5,7 @@ import RootLayout from "../layout"
 import style from "../page.module.css"
 import { useState } from "react"
 import { useRouter } from "next/navigation"
-import { Button } from "../components/button/Button"
+import  Button  from "../components/button/Button"
 
 export default function Cadastro() {
     const router = useRouter()

@@ -2,9 +2,19 @@
 
 import style from '../button/Button.module.css'
 
+interface ButtonProps {
+    children: React.ReactNode
+    link?: string
+    onClick?: React.ReactEventHandler
+    
+  }
+export default function Button({children,link,onClick,...rest}: ButtonProps){
 
-export const Button = ({children, onClick})=>{
+
+
     return(
-        <button className={style.button}onClick={onClick}>{children}</button>
+        <button className={style.button} onClick={onClick} {...rest}>
+            {children}
+        </button>
     )
 }
