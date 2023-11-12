@@ -15,34 +15,34 @@ export default function CadastroVeiculo() {
     const [placaVeiculo, setPlacaVeiculo] = useState('');
     const [capacidadeCombustivel, setCapacidadeCombustivel] = useState('');
 
-    const handleModeloChange = (event) => {
+    const handleModeloChange = (event: React.ChangeEvent<HTMLInputElement>) => {
         setModeloVeiculo(event.target.value);
     };
 
-    const handleAlturaChange = (event) => {
+    const handleAlturaChange = (event: React.ChangeEvent<HTMLInputElement>) => {
         setAlturaVeiculo(event.target.value);
     };
 
-    const handleLarguraChange = (event) => {
+    const handleLarguraChange = (event: React.ChangeEvent<HTMLInputElement>) => {
         setLarguraVeiculo(event.target.value);
     };
 
-    const handleComprimentoChange = (event) => {
+    const handleComprimentoChange = (event: React.ChangeEvent<HTMLInputElement>) => {
         setComprimentoVeiculo(event.target.value);
     };
 
-    const handlePesoChange = (event) => {
+    const handlePesoChange = (event: React.ChangeEvent<HTMLInputElement>) => {
         setPesoVeiculo(event.target.value);
     };
 
-    const handlePlacaChange = (event) => {
+    const handlePlacaChange = (event: React.ChangeEvent<HTMLInputElement>) => {
         setPlacaVeiculo(event.target.value);
     };
 
-    const handleCapacidadeCombustivelChange = (event) => {
+    const handleCapacidadeCombustivelChange = (event: React.ChangeEvent<HTMLInputElement>) => {
         setCapacidadeCombustivel(event.target.value);
     };
-    const toCadastro = async (userPayload) => {
+    const toCadastro = async (userPayload: { modelo_veiculo: string; altura_veiculo_cm: string; largura_veiculo_cm: string; comprimento_veiculo_cm: string; peso_kg: string; placa_veiculo: string; capacidade_combustivel: string; }) => {
         try {
             const response = await fetch("http://localhost:8080/veiculo", {
                 method: "POST",
@@ -68,7 +68,7 @@ export default function CadastroVeiculo() {
             alert("Ocorreu um erro durante a solicitação. Verifique o console para mais detalhes.")
         }
     }
-    const setCadastroVeiculo = (event) => {
+    const setCadastroVeiculo = (event: { preventDefault: () => void; }) => {
         event?.preventDefault()
         const payload = {
             modelo_veiculo: modeloVeiculo,
