@@ -28,7 +28,7 @@ export default function Cadastro() {
     
     
 
-    const toCadastro = async (userPayload) => {
+    const toCadastro = async (userPayload: { nome_segurado: string; cpf_cnpj: string; email_segurado: string }) => {
         try {
             const response = await fetch("http://localhost:8080/segurado", {
               method: "POST",
@@ -54,7 +54,7 @@ export default function Cadastro() {
             alert("Ocorreu um erro durante a solicitação. Verifique o console para mais detalhes.")
           }
     }
-    const setCadastro = (event)=>{
+    const setCadastro = (event: { preventDefault: () => void })=>{
         event?.preventDefault()
         const payload = {
             nome_segurado: name,
