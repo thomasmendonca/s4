@@ -3,7 +3,7 @@ import Header from "@/app/components/header/Header";
 import RootLayout from "@/app/layout";
 import style from '../inicial.module.css';
 import { useRouter } from "next/navigation";
-import { Button } from "@/app/components/button/Button";
+import Button from "@/app/components/button/Button";
 
 export default function Already(){
     const router = useRouter()

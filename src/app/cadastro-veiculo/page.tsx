@@ -88,12 +88,6 @@ export default function CadastroVeiculo() {
         router.push('/menu-home')
     }
 
-
-
-
-
-
-
     return (
         <RootLayout>
             <Header />
