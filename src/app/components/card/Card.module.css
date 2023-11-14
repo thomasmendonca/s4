@@ -1,0 +1,13 @@
+.cardTitle{
+    font-weight: 800;
+    font-size: 3rem;
+}
+.cardImage{
+    width: 300px;
+}
+.cardContent{
+    font-weight: 100;
+    font-size: 1.5rem;
+    color: black;
+    background-color: blueviolet;
+}
